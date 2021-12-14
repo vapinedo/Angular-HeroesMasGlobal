@@ -8,11 +8,13 @@ import { MaterialModule } from './modules/custom/custom-material.module';
 // componentes propios
 import { AppComponent } from './app.component';
 import { ListaHeroesComponent } from './lista-heroes.component';
+import { HeroesDcComponent } from './heroes-dc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaHeroesComponent
+    ListaHeroesComponent,
+    HeroesDcComponent
   ],
   imports: [
     BrowserModule,
