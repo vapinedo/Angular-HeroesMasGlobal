@@ -7,10 +7,12 @@ import { MaterialModule } from './modules/custom/custom-material.module';
 
 // componentes propios
 import { AppComponent } from './app.component';
+import { ListaHeroesComponent } from './lista-heroes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListaHeroesComponent
   ],
   imports: [
     BrowserModule,
